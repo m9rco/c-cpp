@@ -1,7 +1,7 @@
 FROM m9rco/alpine:3.8
 LABEL maintainer="m9rco <pushaowei0727@gmail.com>"
-ARG GCC_VSERSION=gcc-6.4.0-r9
-ARG GPP_VERSION=g++-6.4.0-r9
+ARG GCC_VSERSION=6.4.0-r9
+ARG GPP_VERSION=6.4.0-r9
 
 
 RUN apk add -U --no-cache ca-certificates \
